@@ -5,6 +5,7 @@ class KeyboardLayoutMixin:
     """
     Миксин для хранения и изменения раскладки клавиатуры.
     """
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._layout = 'EN'

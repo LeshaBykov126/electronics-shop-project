@@ -21,3 +21,4 @@ def test_invalid_number_of_sim():
     with pytest.raises(ValueError):
         phone = Phone("iPhone 14", 120_000, 5, -1)
         phone.number_of_sim = -2
+ 
